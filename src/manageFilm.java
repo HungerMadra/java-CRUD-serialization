@@ -143,4 +143,33 @@ public class manageFilm {
         System.out.println(newFilm);
         Serializer.serializeArray(newFilm);
     }
+    //Delete Method
+
+    public void deleteFilm() {
+
+// Deserialize the data we had stored
+        Serializer.deserializeArray();
+        System.out.println(newFilm);
+
+//Prompt to kickstart delete sequence
+        System.out.println("What film will you like to delete, enter film name");
+        String delete = myScanner.next();
+        System.out.println("You want to update: " + "Movie Name - " + delete + ", Cast - " + films.get(delete));
+        System.out.println("answer Yes or No");
+        String question = myScanner.next();
+
+        //Looping through all the films to find the film they want to delete
+        if (question.equals("Yes")) {
+            for (FilmRating film : newFilm) {
+
+//If we find the Film
+                if (film.getMovieName().equals(delete)) {
+                    newFilm.remove(film);
+                }
+                System.out.println(newFilm);
+            }
+            Serializer.serializeArray(newFilm);
+
+        }
+    }
 }

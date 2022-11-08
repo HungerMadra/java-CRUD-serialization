@@ -5,16 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60e240de-6c78-4a8d-b8d4-f8983b141895" name="Changes" comment="CRU for FilmLibrary">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FilmRating.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FilmRating.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Netflix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Serializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/manageFilm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/manageFilm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/manageFilm.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,16 +63,41 @@
       <option name="presentableId" value="Default" />
       <updated>1667759230163</updated>
     </task>
+    <task id="LOCAL-00001" summary="CRU for FilmLibrary">
+      <created>1667924138868</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667924138868</updated>
+    </task>
+    <task id="LOCAL-00002" summary="CRU for FilmLibrary">
+      <created>1667924150444</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667924150444</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="15ded165-eaa7-47a0-9c35-21c7afdbfc77">
+          <value>
+            <State />
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
           </value>
         </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="15ded165-eaa7-47a0-9c35-21c7afdbfc77" value="TOOL_WINDOW" />
       </map>
     </option>
   </component>
